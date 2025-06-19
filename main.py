@@ -279,7 +279,6 @@ def display_menu():
 def run_cli_app():
     """執行命令列應用程式主邏輯"""
     # 確保資料庫在應用程式啟動時就被創建
-    create_database()
 
     while True:
         display_menu()
